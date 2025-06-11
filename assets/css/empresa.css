@@ -1,0 +1,39 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* Espaciador para evitar que el contenido se esconda detrás de la navbar */
+main {
+  padding-top: 100px; /* ajusta según altura de tu navbar */
+}
+
+.historia-box,
+.mision-box {
+  width: 90%;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 25px 30px; /* Espacio interno */
+  background-color: #f9f9f9; /* Fondo claro, cambia si tienes fondo oscuro */
+  border: 1px solid #ddd; /* Borde suave */
+  border-radius: 10px; /* Esquinas redondeadas */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra suave */
+  color: #333; /* Color de texto oscuro */
+  font-family: "Segoe UI", sans-serif;
+  text-align: justify;
+  line-height: 1.6;
+  box-sizing: border-box; /* IMPORTANTE para que el padding no saque el borde */
+}
+
+/* Título centrado y claro */
+.historia-box h3,
+.mision-box h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #222;
+}

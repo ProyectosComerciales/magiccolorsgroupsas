@@ -1,0 +1,26 @@
+.cotizar-texto {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: #e20808; /* Amarillo cálido */
+  text-shadow:
+    1px 1px 3px rgba(0, 0, 0, 0.25),   /* sombra negra sutil */
+    0 0 8px rgba(252, 43, 43, 0.6);    /* halo luminoso amarillo */
+  cursor: default;  /* No es clickeable */
+  user-select: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+  display: inline-block;
+
+   /* Ajustes de posición */
+  margin-left: 2px;   
+  margin-top: 5px;    
+  position: relative;
+  top: 2px;          
+}
+
+.cotizar-texto:hover {
+  color: #2f3e4d; 
+  text-shadow:
+    1px 1px 5px rgba(0, 0, 0, 0.35),
+    0 0 12px rgba(38, 48, 66, 0.9);
+}

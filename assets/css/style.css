@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(120deg, #1c1c1c, #2a2a2a);
+}
+
+.popup {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.popup-content {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  padding: 40px 30px;
+  border-radius: 30px;
+  width: 90%;
+  max-width: 500px;
+  color: #fff;
+  position: relative;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+h1, h2 {
+  text-align: center;
+  margin: 0 0 10px;
+}
+
+.brand {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 40px;
+  letter-spacing: 3px;
+  color: #00ffe5;
+  text-shadow:
+   
+   
+    0 0 20px #00ffee;
+}
+
+
+.descuento {
+  background: #ff4081;
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+}
+
+.popup-content {
+ background-color: rgba(5, 5, 5, 0.2); /* 0.7 = 70% opaco */
+  padding: 30px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 0 20px #00d1ff80;
+  text-align: center;
+  backdrop-filter: blur(8px); /* efecto vidrio */
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 8px;
+  margin: 7px 0;
+  border: none;
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
+.popup-content input::placeholder {
+  color: #ccc;
+}
+
+.popup-content button {
+  display: block;
+  margin: 10px auto 0 auto; /* arriba 10px, izquierda/derecha automáticos */
+  width: 50%;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #00d1ff, #0088ff);
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.popup-content button:hover {
+  background: linear-gradient(135deg, #0088ff, #00d1ff);
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+

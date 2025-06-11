@@ -1,0 +1,37 @@
+.form-section {
+  margin-top: 120px; /* Ajusta este valor según lo que necesites */
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.brand-magic {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2.5rem;
+  color: #222;
+  letter-spacing: 1px;
+}
+
+.promo-banner {
+  
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 120px; /* para separar del header */
+}
+
+.promo-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.promo-subtitle {
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.promo-discount {
+  color: #e53935; /* rojo promocional fuerte */
+  font-weight: bold;
+  font-size: 1.3rem;
+}
