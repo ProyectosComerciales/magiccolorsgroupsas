@@ -29,6 +29,7 @@
   <link href="assets/css/main.css" rel="stylesheet">
   <link href="assets/css/form.css" rel="stylesheet">
 
+  <link href="assets/css/redes.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Magic Colors Group
@@ -51,7 +52,7 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html" >--Pagina principal--</a></li>
-          <li><a href="#" class="active">Inicio</a></li>
+          <li><a href="promo.html" class="active">Inicio</a></li>
           <li><a href="polacur.html" >Políticas de privacidad </a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -60,17 +61,57 @@
     </div>
   </header>
 
-  <main class="main">
-<br>
-<section id="suscripcion-cotizacion" class="form-section container py-5" style="background-color: #111d23; color: #fff;">
-  <div class="container" data-aos="fade-up">
-    <div class="row g-5 align-items-center justify-content-center">
+      <!--Redes Flotantes-->
 
-      <!-- Formulario de Suscripción (Izquierda) -->
-      <div class="promo-banner text-center p-4 col-md-6">
+<div class="social-floating-icons">
+<a href="https://x.com/magiccolors2025" target="_blank" rel="noopener" aria-label="Síguenos en Twitter">
+    <i class="bi bi-twitter-x"></i>
+  </a>
+  <a href="https://www.facebook.com/magiccolorsgroup/" target="_blank" rel="noopener" aria-label="Visítanos en Facebook">
+    <i class="bi bi-facebook"></i>
+  </a>
+  <a href="https://www.instagram.com/magiccolorsgroupcauca/" target="_blank" rel="noopener" aria-label="Síguenos en Instagram">
+    <i class="bi bi-instagram"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/magic-colors-group-08509636b/" target="_blank" rel="noopener" aria-label="Conéctate en LinkedIn">
+    <i class="bi bi-linkedin"></i>
+  </a>
+</div>
+
+      <!--Fin Redes Flotantes-->
+
+
+
+
+  <main class="main">
+
+
+<br>
+
+
+<section id="suscripcion-cotizacion" class="form-section container py-5" style="background-color: #111d23; color: #fff;">
+  
+  <!-- Encabezado principal -->
+  <div class="text-center mb-5">
+    <h1 class="fw-bold display-5" style="color: #fff;">
+      Transformamos <span style="color: #00ffd1;">ideas</span> en <span style="color: #ff4081;">impacto visual</span>
+    </h1>
+    <p class="fs-5 mt-3 text-white-50">
+      En <strong>MAGIC COLORS GROUP</strong> somos expertos en publicidad, diseño gráfico y gran formato. Creatividad que conecta.
+    </p>
+  </div>
+
+  <!-- Formularios -->
+  <div class="container" data-aos="fade-up">
+    <div class="row g-5 align-items-start justify-content-center">
+
+      <!-- Suscripción -->
+      <div class="col-md-6">
         <div class="p-4 rounded-4 shadow" style="background-color: rgba(255,255,255,0.05);">
-          <h2 class="promo-title text-white mb-3">¡Bienvenido a <span class="brand-magic" style="color: #00ffd1;">MAGIC COLORS GROUP</span>!</h2>
-          <p class="promo-subtitle text-white mb-4">Suscríbete y obtén un <strong class="promo-discount">10% de descuento</strong> en tu primera compra.</p>
+          <h2 class="text-white mb-3 text-center">🎁 Promociones Exclusivas</h2>
+          <p class="text-white mb-4 text-center">
+            Suscríbete y recibe un <strong style="color: #00ffd1;">10% de descuento</strong> en tu primera compra.
+          </p>
           <form id="form-suscripcion">
             <div class="mb-3">
               <input type="text" class="form-control" placeholder="Nombre completo" id="nombreSus">
@@ -87,16 +128,18 @@
             <div class="mb-3">
               <input type="text" class="form-control" placeholder="Teléfono" id="telefonoSus">
             </div>
-            <button type="button" class="btn btn-success w-100" onclick="enviarWhatsAppSuscripcion()">SUSCRIBIRME</button>
+            <button type="button" class="btn btn-success w-100 fw-bold" onclick="enviarWhatsAppSuscripcion()">SUSCRIBIRME</button>
           </form>
         </div>
       </div>
 
-      <!-- Formulario de Cotización (Derecha) -->
+      <!-- Cotización -->
       <div class="col-md-6">
         <div class="p-4 rounded-4 shadow" style="background-color: rgba(255,255,255,0.05);">
-          <h2 class="text-white mb-3">¿Deseas conocer nuestros productos y precios?</h2>
-          <p class="text-white mb-4">Solicita una cotización personalizada y conoce nuestras soluciones en impresión digital, gran formato, diseño gráfico y mucho más.</p>
+          <h2 class="text-white mb-3 text-center">🛠️ Cotiza con Nosotros</h2>
+          <p class="text-white mb-4 text-center">
+            ¿Tienes un proyecto en mente? Cuéntanos qué necesitas y recibe una propuesta personalizada.
+          </p>
           <form id="form-cotizacion">
             <div class="mb-3">
               <input type="text" class="form-control" placeholder="Nombre completo" id="nombreCot">
@@ -107,15 +150,13 @@
             <div class="mb-3">
               <textarea class="form-control" rows="3" placeholder="Producto o servicio de interés" id="productoCot"></textarea>
             </div>
-            <button type="button" class="btn btn-primary w-100" onclick="enviarWhatsAppCotizacion()">SOLICITAR COTIZACIÓN</button>
+            <button type="button" class="btn btn-primary w-100 fw-bold" onclick="enviarWhatsAppCotizacion()">SOLICITAR COTIZACIÓN</button>
           </form>
         </div>
       </div>
     </div>
   </div>
 </section>
-
- 
 
   </main>
 
@@ -125,8 +166,8 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-about">
      
-          <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-              <img src="assets/imgs/magic/LOGO34.png" alt="Magic Color Group Logo" class="img-fluid">
+          <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0" aria-label="Ir a página de contacto">
+            <img src="assets/imgs/servicios/tecn.png" alt="Magic Color Group Logo" class="img-fluid">
           </a>
           
           <p>"Transformamos ideas en impresiones de calidad"</p>
@@ -150,24 +191,23 @@
         <div class="col-lg-2 col-6 footer-links">
           <h4>Enlaces útiles</h4>
           <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#about">Nuestra Empresa</a></li>
-            <li><a href="#services">Servicios</a></li>
-            <li><a href="#">Condiciones de servicio</a></li>
-            <li><a href="#">Política de privacidad</a></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="index.html#services">Servicios</a></li>
+            <li><a href="promo.html">Promociones</a></li>
+            <li>
+                <a href="polacur.html">
+                    Condiciones de servicio <span class="d-block">y Política de privacidad</span>
+                </a>
+            </li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
           <h4>Nuestros servicios</h4>
           <ul>
-            <li><a href="#services">Impresion Digital a Gran Formato</a></li>
-            <li><a href="#services">Impresion Laser</a></li>
-            <li><a href="#services">Corte Laser</a></li>
-            <li><a href="#services">Instalaciones y Mantenimiento Avisos</a></li>
-            <li><a href="#services">Laminado, Acabados</a></li>
-            <li><a href="#services">Diseño Grafico</a></li>
-            <li><a href="#services">Instaacion y Mentenimeinto Equipos Tecnologicos, Sistemas POS, y CCTV</a></li>
+          <li>
+            <a href="index.html#services">Ver todos nuestros servicios:<br><br> Impresión Láser, Corte Láser, Instalaciones, Diseño, Tecnología, etc.</a>
+          </li>
           </ul>
         </div>
 
@@ -205,7 +245,7 @@
   </footer>
 
   <!-- Desplazarse hacia arriba -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center" aria-label="Ir al inicio de la página">
+  <a href="promo.html" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center" aria-label="Ir al inicio de la página">
   <i class="bi bi-arrow-up-short"></i>
   </a>
   
