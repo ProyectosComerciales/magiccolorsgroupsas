@@ -193,12 +193,12 @@ h3 { font-size: 1.5rem; font-weight: 600; }
 .header .logo {
   position: absolute;
   top: 2px;   /* Lo sacas del header visualmente */
-  left: 160px;
+  left: 152px;
   z-index: 1100;
 }
 
 .header .logo img {
-  height: 95px; /* Tamaño grande sin afectar header */
+  height: 90px; /* Tamaño grande sin afectar header */
   width: auto;
 }
 

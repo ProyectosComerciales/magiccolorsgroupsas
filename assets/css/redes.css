@@ -12,12 +12,15 @@
 }
 
 .social-floating-icons a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #000;
-  font-size: 22px;
+  font-size: 18px;
   background-color: rgba(255, 255, 255, 0.5);
-  padding: 8px;
   border-radius: 50%;
-  text-align: center;
   transition: background 0.3s ease;
 }
 
