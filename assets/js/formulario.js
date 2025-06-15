@@ -14,7 +14,7 @@
  Dirección: ${direccion}%0A
  Teléfono: ${telefono}`;
 
-    window.open(`https://wa.me/573216122722?text=${mensaje}`, "_blank");
+    window.open(`https://wa.me/573126435567?text=${mensaje}`, "_blank");
   }
 
   function enviarWhatsAppCotizacion() {
@@ -27,6 +27,6 @@
  Ciudad: ${ciudad}%0A
  Producto o servicio: ${producto}`;
 
-    window.open(`https://wa.me/573216122722?text=${mensaje}`, "_blank");
+    window.open(`https://wa.me/573126435567?text=${mensaje}`, "_blank");
   }
 
